@@ -5,7 +5,7 @@
 
 /* BODY  */
 
-body{
+body, main{
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -45,12 +45,39 @@ body{
 
 /* MAIN */
 
-.img-central{
+.central{
     position: relative;
     top: 70px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.img-central img{
+.img-central{
     height: 700px;
     width: 1200px;
+}
+
+.banner{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner h2, h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+/* FOOTER */
+
+footer{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    text-align: left;
 }
