@@ -14,6 +14,12 @@ body, main{
     text-align: center;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* HEADER */
 
 .headboard{
@@ -73,10 +79,34 @@ body, main{
     
 }
 
+.encabezado{
+    position: relative;
+    margin-top: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+/* GALLERY */
+
+.gallery{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.gallery img{
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
 /* FOOTER */
 
 footer{
-    position: absolute;
+    position: relative;
+    margin-top: 30px;
     bottom: 30px;
     left: 20px;
     text-align: left;
