@@ -115,7 +115,7 @@ main{
 /* LOCATIONS */
 
 .locations{
-    height: 500px;
+    min-height: 500px;
     max-width: 1200px;
     width: 100%;
     background-image: url(img/img-locations-background.jpg);
@@ -131,20 +131,28 @@ main{
 }
 
 .address{
+    background-color: transparent;
+    opacity: 1;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-/* .address div{
+.address-description{
     width: 300px;
     opacity: 1;
     margin: 15px 20px 0px 20px;
     padding: 20px 0px;
-} */
+}
+
+.locations h1{
+    background-color: transparent;
+    
+}
 
 .address div p{
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 /* CONTACT */
