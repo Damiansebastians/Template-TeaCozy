@@ -1,6 +1,6 @@
 # Template-TeaCozy
 
-Proyecto para la aplicación de CSS.
+### Proyecto para la aplicación de CSS.
 
 Template >>> 
 
